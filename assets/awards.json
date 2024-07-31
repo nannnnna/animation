@@ -1,0 +1,14 @@
+{
+  "awards": [
+    {
+      "title": "Award 1",
+      "description": "Description of Award 1.",
+      "year": 2021
+    },
+    {
+      "title": "Award 2",
+      "description": "Description of Award 2.",
+      "year": 2022
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.award {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    width: 300px;
+    text-align: center;
+}
