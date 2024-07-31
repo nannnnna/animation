@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squares Animation</title>
+    <link href="./styles/squares.css" rel="stylesheet">
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 510" version="1.1">
+    <title>Squares</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+
+
+        <!-- Gray Box -->
+        <rect id="gray-box" width="50" height="50" fill="#BBBBCC"></rect>
+        <path id="gray-path" d="M495,510 L495, -100" fill="none"></path>
+
+        <animateMotion
+                xlink:href="#gray-box"
+                dur="10s"
+                begin="0s"
+                fill="freeze"
+                repeatCount="indefinite">
+            <mpath xlink:href="#gray-path" />
+        </animateMotion>
+
+        <animateTransform
+                xlink:href="#gray-box"
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 25 25"
+                to="360 25 25"
+                dur="5s"
+                repeatCount="indefinite"
+                fill="freeze"
+        />
+
+
+        <!-- Brown Box -->
+        <rect id="brown-box" width="50" height="50" fill="#AA7755"></rect>
+        <path d="M540,530 L540, -100" id="brown-path" fill="none"></path>
+
+        <animateMotion
+                xlink:href="#brown-box"
+                dur="30s"
+                begin="0s"
+                fill="freeze"
+                repeatCount="indefinite">
+            <mpath xlink:href="#brown-path" />
+        </animateMotion>
+
+        <animateTransform
+                xlink:href="#brown-box"
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 25 25"
+                to="360 25 25"
+                dur="15s"
+                repeatCount="indefinite"
+                fill="freeze"
+        />
+
+
+        <!-- Purple Box -->
+        <rect id="purple-box" width="75" height="75" fill="#8B60B9"></rect>
+        <path id="purple-path" d="M595,650 L595, -100" fill="none"></path>
+
+        <animateMotion
+                xlink:href="#purple-box"
+                dur="20s"
+                begin="0s"
+                fill="freeze"
+                repeatCount="indefinite">
+            <mpath xlink:href="#purple-path" />
+        </animateMotion>
+
+        <animateTransform
+                xlink:href="#purple-box"
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 37.5 37.5"
+                to="360 37.5 37.5"
+                dur="10s"
+                repeatCount="indefinite"
+                fill="freeze"
+        />
+
+
+        <!-- Cyan box -->
+        <rect id="cyan-box" width="60" height="60" fill="#66EEDD"></rect>
+        <path id="cyan-path" d="M705,800 L705, -100" fill="none"></path>
+
+        <animateMotion
+                xlink:href="#cyan-box"
+                dur="20s"
+                begin="0s"
+                fill="freeze"
+                repeatCount="indefinite">
+            <mpath xlink:href="#cyan-path" />
+        </animateMotion>
+
+        <animateTransform
+                xlink:href="#cyan-box"
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 30 30"
+                to="360 30 30"
+                dur="15s"
+                repeatCount="indefinite"
+                fill="freeze"
+        />
+
+
+        <!-- Tomato Box -->
+        <rect id="tomato-box" width="35" height="35" fill="#FF8877"></rect>
+        <path id="tomato-path" d="M685,1000 L685, -100" fill="none"></path>
+
+        <animateMotion
+                xlink:href="#tomato-box"
+                dur="30s"
+                begin="0s"
+                fill="freeze"
+                repeatCount="indefinite">
+            <mpath xlink:href="#tomato-path" />
+        </animateMotion>
+
+        <animateTransform
+                xlink:href="#tomato-box"
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 17.5 17.5"
+                to="360 17.5 17.5"
+                dur="8s"
+                repeatCount="indefinite"
+                fill="freeze"
+        />
+
+
+        <!-- Yellow Box -->
+        <rect id="yellow-box" width="30" height="30" fill="#FFEE33"></rect>
+        <path id="yellow-path" d="M755,800 L755, -100" fill="none"></path>
+
+        <animateMotion
+                xlink:href="#yellow-box"
+                dur="15s"
+                begin="0s"
+                fill="freeze"
+                repeatCount="indefinite">
+            <mpath xlink:href="#yellow-path" />
+        </animateMotion>
+
+        <animateTransform
+                xlink:href="#yellow-box"
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 15 15"
+                to="360 15 15"
+                dur="8s"
+                repeatCount="indefinite"
+                fill="freeze"
+        />
+
+
+        <!-- Blue Box -->
+        <rect id="blue-box" width="50" height="50" fill="#6666FF"></rect>
+        <path d="M785,800 L785, -100" id="blue-path" fill="none"></path>
+
+        <animateMotion
+                xlink:href="#blue-box"
+                dur="10s"
+                begin="0s"
+                fill="freeze"
+                repeatCount="indefinite">
+            <mpath xlink:href="#blue-path" />
+        </animateMotion>
+
+        <animateTransform
+                xlink:href="#blue-box"
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 25 25"
+                to="360 25 25"
+                dur="6s"
+                repeatCount="indefinite"
+                fill="freeze"
+        />
+
+
+        <!-- Green Box -->
+        <rect id="green-box" width="40" height="40" fill="#66CC99"></rect>
+        <path id="green-path" d="M810,900 L810, -100" fill="none"></path>
+
+        <animateMotion
+                xlink:href="#green-box"
+                dur="20s"
+                begin="0s"
+                fill="freeze"
+                repeatCount="indefinite">
+            <mpath xlink:href="#green-path" />
+        </animateMotion>
+
+        <animateTransform
+                xlink:href="#green-box"
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 20 20"
+                to="360 20 20"
+                dur="10s"
+                repeatCount="indefinite"
+                fill="freeze"
+        />
+
+
+        <!-- Pink Box -->
+        <rect id="pink-box" width="100" height="100" fill="#FF88CC"></rect>
+        <path id="pink-path" d="M1000,900 L1000, -100" fill="none"></path>
+
+        <animateMotion
+                xlink:href="#pink-box"
+                dur="25s"
+                begin="0s"
+                fill="freeze"
+                repeatCount="indefinite">
+            <mpath xlink:href="#pink-path" />
+        </animateMotion>
+
+        <animateTransform
+                xlink:href="#pink-box"
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 50 50"
+                to="360 50 50"
+                dur="10s"
+                repeatCount="indefinite"
+                fill="freeze"
+        />
+
+    </g>
+</svg>
+</body>
+</html>

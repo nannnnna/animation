@@ -1,0 +1,57 @@
+@keyframes shift {
+    10% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    20% {
+        transform: translate3d(-20px, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(10px, 0, 0);
+    }
+
+    75% {
+        transform: translate3d(-7px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+:root {
+    --backgroundColor: #232323;
+    --firstColor: #00D69C;
+    --secondColor: #C52AFC;
+    --thirdColor: #FF1F00;
+    --fourthColor: #FFD600;
+    --dropShadowColor: rgb(178, 11, 11);
+}
+
+html,
+main {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    color: #FF1F00;
+}
+
+.blob {
+    margin: auto;
+    color: #FF1F00;
+}
+.element {
+    width: 100px;
+    height: 100px;
+    background: lightgray;
+    margin: 0 auto;
+}
+
+.element.is-animated {
+    animation: shift 1700ms linear 700ms infinite;
+}
+
+p {
+    margin: 0 auto 20px;
+    width: max-content;
+}
